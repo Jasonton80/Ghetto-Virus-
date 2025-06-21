@@ -1,25 +1,65 @@
 css
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* white background */
+  color: #000000; /* black text */
   margin: 0;
   padding: 0;
-  background-color: #111;
-  color: #fff;
-  text-align: center;
 }
 
 header {
-  background: #222;
+  background-color: #000000; /* black header */
+  color: #ffffff; /* white text */
   padding: 40px 20px;
+  text-align: center;
 }
 
-.music, .about {
-  margin: 40px 20px;
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #3399ff; /* blue title */
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.8em;
+  border-bottom: 2px solid #3399ff;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+li::before {
+  content: "🎵 ";
+  color: #3399ff;
+  margin-right: 6px;
 }
 
 footer {
-  background: #222;
-  padding: 20px;
-  margin-top: 40px;
-  font-size: 14px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
 }
+
